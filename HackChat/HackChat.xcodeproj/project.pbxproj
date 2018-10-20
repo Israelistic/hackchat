@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3937659620CD215F79CDF79D /* Pods_HackChat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 314871CDF75E000BBDF5C4A0 /* Pods_HackChat.framework */; };
+		7D02FDAF217B8D4300EBEF0B /* SigninViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D02FDAE217B8D4300EBEF0B /* SigninViewController.swift */; };
+		7D73D541217B86100040FC8B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7D73D540217B86100040FC8B /* GoogleService-Info.plist */; };
 		A31BBB27217B7C8B00EA71DD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A31BBB26217B7C8B00EA71DD /* AppDelegate.swift */; };
 		A31BBB29217B7C8B00EA71DD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A31BBB28217B7C8B00EA71DD /* ViewController.swift */; };
 		A31BBB2C217B7C8B00EA71DD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A31BBB2A217B7C8B00EA71DD /* Main.storyboard */; };
@@ -15,6 +18,8 @@
 		A31BBB34217B7C8C00EA71DD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A31BBB32217B7C8C00EA71DD /* LaunchScreen.storyboard */; };
 		A31BBB3F217B7C8D00EA71DD /* HackChatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A31BBB3E217B7C8D00EA71DD /* HackChatTests.swift */; };
 		A31BBB4A217B7C8D00EA71DD /* HackChatUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A31BBB49217B7C8D00EA71DD /* HackChatUITests.swift */; };
+		C0CCCFDCAEB230611D7E68AC /* Pods_HackChatTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50153310501DEED9F2BF7BF2 /* Pods_HackChatTests.framework */; };
+		CFA0A25CB202A2B851CE9481 /* Pods_HackChatUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC8A925F3F341E39DD0A1E6B /* Pods_HackChatUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +40,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		314871CDF75E000BBDF5C4A0 /* Pods_HackChat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HackChat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		50153310501DEED9F2BF7BF2 /* Pods_HackChatTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HackChatTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7C72B25A621416DB5FAD42D6 /* Pods-HackChatUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HackChatUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HackChatUITests/Pods-HackChatUITests.release.xcconfig"; sourceTree = "<group>"; };
+		7D02FDAE217B8D4300EBEF0B /* SigninViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SigninViewController.swift; sourceTree = "<group>"; };
+		7D73D540217B86100040FC8B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		8277A92C6B67E32DC6F87A85 /* Pods-HackChat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HackChat.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HackChat/Pods-HackChat.debug.xcconfig"; sourceTree = "<group>"; };
+		88600431CDF498877C3357F8 /* Pods-HackChatUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HackChatUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HackChatUITests/Pods-HackChatUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		949FE8D769EF0CA81F513713 /* Pods-HackChatTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HackChatTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HackChatTests/Pods-HackChatTests.debug.xcconfig"; sourceTree = "<group>"; };
+		97F64CE6F0EC0EDB22601B1D /* Pods-HackChat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HackChat.release.xcconfig"; path = "Pods/Target Support Files/Pods-HackChat/Pods-HackChat.release.xcconfig"; sourceTree = "<group>"; };
 		A31BBB23217B7C8B00EA71DD /* HackChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HackChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A31BBB26217B7C8B00EA71DD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A31BBB28217B7C8B00EA71DD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +63,8 @@
 		A31BBB45217B7C8D00EA71DD /* HackChatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HackChatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A31BBB49217B7C8D00EA71DD /* HackChatUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HackChatUITests.swift; sourceTree = "<group>"; };
 		A31BBB4B217B7C8D00EA71DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC8A925F3F341E39DD0A1E6B /* Pods_HackChatUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HackChatUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECF1803A77C97CA8916C385E /* Pods-HackChatTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HackChatTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HackChatTests/Pods-HackChatTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3937659620CD215F79CDF79D /* Pods_HackChat.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C0CCCFDCAEB230611D7E68AC /* Pods_HackChatTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CFA0A25CB202A2B851CE9481 /* Pods_HackChatUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +102,8 @@
 				A31BBB3D217B7C8D00EA71DD /* HackChatTests */,
 				A31BBB48217B7C8D00EA71DD /* HackChatUITests */,
 				A31BBB24217B7C8B00EA71DD /* Products */,
+				A9DA5918F5115F32103CFA5C /* Pods */,
+				DC9C737561AE553B1A1200F9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,9 +120,11 @@
 		A31BBB25217B7C8B00EA71DD /* HackChat */ = {
 			isa = PBXGroup;
 			children = (
+				7D73D540217B86100040FC8B /* GoogleService-Info.plist */,
 				A31BBB26217B7C8B00EA71DD /* AppDelegate.swift */,
 				A31BBB28217B7C8B00EA71DD /* ViewController.swift */,
 				A31BBB2A217B7C8B00EA71DD /* Main.storyboard */,
+				7D02FDAE217B8D4300EBEF0B /* SigninViewController.swift */,
 				A31BBB30217B7C8C00EA71DD /* Assets.xcassets */,
 				A31BBB32217B7C8C00EA71DD /* LaunchScreen.storyboard */,
 				A31BBB35217B7C8C00EA71DD /* Info.plist */,
@@ -128,6 +151,29 @@
 			path = HackChatUITests;
 			sourceTree = "<group>";
 		};
+		A9DA5918F5115F32103CFA5C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8277A92C6B67E32DC6F87A85 /* Pods-HackChat.debug.xcconfig */,
+				97F64CE6F0EC0EDB22601B1D /* Pods-HackChat.release.xcconfig */,
+				949FE8D769EF0CA81F513713 /* Pods-HackChatTests.debug.xcconfig */,
+				ECF1803A77C97CA8916C385E /* Pods-HackChatTests.release.xcconfig */,
+				88600431CDF498877C3357F8 /* Pods-HackChatUITests.debug.xcconfig */,
+				7C72B25A621416DB5FAD42D6 /* Pods-HackChatUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DC9C737561AE553B1A1200F9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				314871CDF75E000BBDF5C4A0 /* Pods_HackChat.framework */,
+				50153310501DEED9F2BF7BF2 /* Pods_HackChatTests.framework */,
+				AC8A925F3F341E39DD0A1E6B /* Pods_HackChatUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +181,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A31BBB4E217B7C8D00EA71DD /* Build configuration list for PBXNativeTarget "HackChat" */;
 			buildPhases = (
+				9E54DF72CCFB4C8BADC731D2 /* [CP] Check Pods Manifest.lock */,
 				A31BBB1F217B7C8B00EA71DD /* Sources */,
 				A31BBB20217B7C8B00EA71DD /* Frameworks */,
 				A31BBB21217B7C8B00EA71DD /* Resources */,
+				8B512E5C760258E468A0B355 /* [CP] Embed Pods Frameworks */,
+				0333445755F1E57261BAF99F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -152,6 +201,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A31BBB51217B7C8D00EA71DD /* Build configuration list for PBXNativeTarget "HackChatTests" */;
 			buildPhases = (
+				8D1D9008617F1F4FF7390998 /* [CP] Check Pods Manifest.lock */,
 				A31BBB36217B7C8D00EA71DD /* Sources */,
 				A31BBB37217B7C8D00EA71DD /* Frameworks */,
 				A31BBB38217B7C8D00EA71DD /* Resources */,
@@ -170,6 +220,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A31BBB54217B7C8D00EA71DD /* Build configuration list for PBXNativeTarget "HackChatUITests" */;
 			buildPhases = (
+				930B581732EFD07E81E49466 /* [CP] Check Pods Manifest.lock */,
 				A31BBB41217B7C8D00EA71DD /* Sources */,
 				A31BBB42217B7C8D00EA71DD /* Frameworks */,
 				A31BBB43217B7C8D00EA71DD /* Resources */,
@@ -233,6 +284,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A31BBB34217B7C8C00EA71DD /* LaunchScreen.storyboard in Resources */,
+				7D73D541217B86100040FC8B /* GoogleService-Info.plist in Resources */,
 				A31BBB31217B7C8C00EA71DD /* Assets.xcassets in Resources */,
 				A31BBB2C217B7C8B00EA71DD /* Main.storyboard in Resources */,
 			);
@@ -254,11 +306,147 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0333445755F1E57261BAF99F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-HackChat/Pods-HackChat-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseUI/FirebaseAuthUI.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FirebaseAuthUI.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HackChat/Pods-HackChat-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8B512E5C760258E468A0B355 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-HackChat/Pods-HackChat-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/BoringSSL/openssl.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/SCLAlertView/SCLAlertView.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC/GRPCClient.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-C++/grpcpp.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-Core/grpc.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-ProtoRPC/ProtoRPC.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-RxLibrary/RxLibrary.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/openssl.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SCLAlertView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GRPCClient.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpcpp.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpc.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ProtoRPC.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxLibrary.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HackChat/Pods-HackChat-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8D1D9008617F1F4FF7390998 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HackChatTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		930B581732EFD07E81E49466 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HackChatUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9E54DF72CCFB4C8BADC731D2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HackChat-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A31BBB1F217B7C8B00EA71DD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7D02FDAF217B8D4300EBEF0B /* SigninViewController.swift in Sources */,
 				A31BBB2F217B7C8B00EA71DD /* HackChat.xcdatamodeld in Sources */,
 				A31BBB29217B7C8B00EA71DD /* ViewController.swift in Sources */,
 				A31BBB27217B7C8B00EA71DD /* AppDelegate.swift in Sources */,
@@ -434,10 +622,12 @@
 		};
 		A31BBB4F217B7C8D00EA71DD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8277A92C6B67E32DC6F87A85 /* Pods-HackChat.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = RW646P4KDZ;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = HackChat/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -445,6 +635,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = ios.HackChat;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -452,10 +643,12 @@
 		};
 		A31BBB50217B7C8D00EA71DD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 97F64CE6F0EC0EDB22601B1D /* Pods-HackChat.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = RW646P4KDZ;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = HackChat/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -463,6 +656,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = ios.HackChat;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -470,6 +664,7 @@
 		};
 		A31BBB52217B7C8D00EA71DD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 949FE8D769EF0CA81F513713 /* Pods-HackChatTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -491,6 +686,7 @@
 		};
 		A31BBB53217B7C8D00EA71DD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ECF1803A77C97CA8916C385E /* Pods-HackChatTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -512,6 +708,7 @@
 		};
 		A31BBB55217B7C8D00EA71DD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 88600431CDF498877C3357F8 /* Pods-HackChatUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -532,6 +729,7 @@
 		};
 		A31BBB56217B7C8D00EA71DD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7C72B25A621416DB5FAD42D6 /* Pods-HackChatUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
