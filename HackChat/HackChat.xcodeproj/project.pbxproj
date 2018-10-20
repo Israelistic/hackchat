@@ -1,0 +1,608 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A31BBB27217B7C8B00EA71DD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A31BBB26217B7C8B00EA71DD /* AppDelegate.swift */; };
+		A31BBB29217B7C8B00EA71DD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A31BBB28217B7C8B00EA71DD /* ViewController.swift */; };
+		A31BBB2C217B7C8B00EA71DD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A31BBB2A217B7C8B00EA71DD /* Main.storyboard */; };
+		A31BBB2F217B7C8B00EA71DD /* HackChat.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A31BBB2D217B7C8B00EA71DD /* HackChat.xcdatamodeld */; };
+		A31BBB31217B7C8C00EA71DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A31BBB30217B7C8C00EA71DD /* Assets.xcassets */; };
+		A31BBB34217B7C8C00EA71DD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A31BBB32217B7C8C00EA71DD /* LaunchScreen.storyboard */; };
+		A31BBB3F217B7C8D00EA71DD /* HackChatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A31BBB3E217B7C8D00EA71DD /* HackChatTests.swift */; };
+		A31BBB4A217B7C8D00EA71DD /* HackChatUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A31BBB49217B7C8D00EA71DD /* HackChatUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A31BBB3B217B7C8D00EA71DD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A31BBB1B217B7C8B00EA71DD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A31BBB22217B7C8B00EA71DD;
+			remoteInfo = HackChat;
+		};
+		A31BBB46217B7C8D00EA71DD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A31BBB1B217B7C8B00EA71DD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A31BBB22217B7C8B00EA71DD;
+			remoteInfo = HackChat;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A31BBB23217B7C8B00EA71DD /* HackChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HackChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A31BBB26217B7C8B00EA71DD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A31BBB28217B7C8B00EA71DD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A31BBB2B217B7C8B00EA71DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A31BBB2E217B7C8B00EA71DD /* HackChat.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HackChat.xcdatamodel; sourceTree = "<group>"; };
+		A31BBB30217B7C8C00EA71DD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A31BBB33217B7C8C00EA71DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A31BBB35217B7C8C00EA71DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A31BBB3A217B7C8D00EA71DD /* HackChatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HackChatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A31BBB3E217B7C8D00EA71DD /* HackChatTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HackChatTests.swift; sourceTree = "<group>"; };
+		A31BBB40217B7C8D00EA71DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A31BBB45217B7C8D00EA71DD /* HackChatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HackChatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A31BBB49217B7C8D00EA71DD /* HackChatUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HackChatUITests.swift; sourceTree = "<group>"; };
+		A31BBB4B217B7C8D00EA71DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A31BBB20217B7C8B00EA71DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A31BBB37217B7C8D00EA71DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A31BBB42217B7C8D00EA71DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A31BBB1A217B7C8B00EA71DD = {
+			isa = PBXGroup;
+			children = (
+				A31BBB25217B7C8B00EA71DD /* HackChat */,
+				A31BBB3D217B7C8D00EA71DD /* HackChatTests */,
+				A31BBB48217B7C8D00EA71DD /* HackChatUITests */,
+				A31BBB24217B7C8B00EA71DD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A31BBB24217B7C8B00EA71DD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A31BBB23217B7C8B00EA71DD /* HackChat.app */,
+				A31BBB3A217B7C8D00EA71DD /* HackChatTests.xctest */,
+				A31BBB45217B7C8D00EA71DD /* HackChatUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A31BBB25217B7C8B00EA71DD /* HackChat */ = {
+			isa = PBXGroup;
+			children = (
+				A31BBB26217B7C8B00EA71DD /* AppDelegate.swift */,
+				A31BBB28217B7C8B00EA71DD /* ViewController.swift */,
+				A31BBB2A217B7C8B00EA71DD /* Main.storyboard */,
+				A31BBB30217B7C8C00EA71DD /* Assets.xcassets */,
+				A31BBB32217B7C8C00EA71DD /* LaunchScreen.storyboard */,
+				A31BBB35217B7C8C00EA71DD /* Info.plist */,
+				A31BBB2D217B7C8B00EA71DD /* HackChat.xcdatamodeld */,
+			);
+			path = HackChat;
+			sourceTree = "<group>";
+		};
+		A31BBB3D217B7C8D00EA71DD /* HackChatTests */ = {
+			isa = PBXGroup;
+			children = (
+				A31BBB3E217B7C8D00EA71DD /* HackChatTests.swift */,
+				A31BBB40217B7C8D00EA71DD /* Info.plist */,
+			);
+			path = HackChatTests;
+			sourceTree = "<group>";
+		};
+		A31BBB48217B7C8D00EA71DD /* HackChatUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A31BBB49217B7C8D00EA71DD /* HackChatUITests.swift */,
+				A31BBB4B217B7C8D00EA71DD /* Info.plist */,
+			);
+			path = HackChatUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A31BBB22217B7C8B00EA71DD /* HackChat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A31BBB4E217B7C8D00EA71DD /* Build configuration list for PBXNativeTarget "HackChat" */;
+			buildPhases = (
+				A31BBB1F217B7C8B00EA71DD /* Sources */,
+				A31BBB20217B7C8B00EA71DD /* Frameworks */,
+				A31BBB21217B7C8B00EA71DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HackChat;
+			productName = HackChat;
+			productReference = A31BBB23217B7C8B00EA71DD /* HackChat.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A31BBB39217B7C8D00EA71DD /* HackChatTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A31BBB51217B7C8D00EA71DD /* Build configuration list for PBXNativeTarget "HackChatTests" */;
+			buildPhases = (
+				A31BBB36217B7C8D00EA71DD /* Sources */,
+				A31BBB37217B7C8D00EA71DD /* Frameworks */,
+				A31BBB38217B7C8D00EA71DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A31BBB3C217B7C8D00EA71DD /* PBXTargetDependency */,
+			);
+			name = HackChatTests;
+			productName = HackChatTests;
+			productReference = A31BBB3A217B7C8D00EA71DD /* HackChatTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A31BBB44217B7C8D00EA71DD /* HackChatUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A31BBB54217B7C8D00EA71DD /* Build configuration list for PBXNativeTarget "HackChatUITests" */;
+			buildPhases = (
+				A31BBB41217B7C8D00EA71DD /* Sources */,
+				A31BBB42217B7C8D00EA71DD /* Frameworks */,
+				A31BBB43217B7C8D00EA71DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A31BBB47217B7C8D00EA71DD /* PBXTargetDependency */,
+			);
+			name = HackChatUITests;
+			productName = HackChatUITests;
+			productReference = A31BBB45217B7C8D00EA71DD /* HackChatUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A31BBB1B217B7C8B00EA71DD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = luke;
+				TargetAttributes = {
+					A31BBB22217B7C8B00EA71DD = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					A31BBB39217B7C8D00EA71DD = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = A31BBB22217B7C8B00EA71DD;
+					};
+					A31BBB44217B7C8D00EA71DD = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = A31BBB22217B7C8B00EA71DD;
+					};
+				};
+			};
+			buildConfigurationList = A31BBB1E217B7C8B00EA71DD /* Build configuration list for PBXProject "HackChat" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A31BBB1A217B7C8B00EA71DD;
+			productRefGroup = A31BBB24217B7C8B00EA71DD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A31BBB22217B7C8B00EA71DD /* HackChat */,
+				A31BBB39217B7C8D00EA71DD /* HackChatTests */,
+				A31BBB44217B7C8D00EA71DD /* HackChatUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A31BBB21217B7C8B00EA71DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A31BBB34217B7C8C00EA71DD /* LaunchScreen.storyboard in Resources */,
+				A31BBB31217B7C8C00EA71DD /* Assets.xcassets in Resources */,
+				A31BBB2C217B7C8B00EA71DD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A31BBB38217B7C8D00EA71DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A31BBB43217B7C8D00EA71DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A31BBB1F217B7C8B00EA71DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A31BBB2F217B7C8B00EA71DD /* HackChat.xcdatamodeld in Sources */,
+				A31BBB29217B7C8B00EA71DD /* ViewController.swift in Sources */,
+				A31BBB27217B7C8B00EA71DD /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A31BBB36217B7C8D00EA71DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A31BBB3F217B7C8D00EA71DD /* HackChatTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A31BBB41217B7C8D00EA71DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A31BBB4A217B7C8D00EA71DD /* HackChatUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A31BBB3C217B7C8D00EA71DD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A31BBB22217B7C8B00EA71DD /* HackChat */;
+			targetProxy = A31BBB3B217B7C8D00EA71DD /* PBXContainerItemProxy */;
+		};
+		A31BBB47217B7C8D00EA71DD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A31BBB22217B7C8B00EA71DD /* HackChat */;
+			targetProxy = A31BBB46217B7C8D00EA71DD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A31BBB2A217B7C8B00EA71DD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A31BBB2B217B7C8B00EA71DD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A31BBB32217B7C8C00EA71DD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A31BBB33217B7C8C00EA71DD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A31BBB4C217B7C8D00EA71DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A31BBB4D217B7C8D00EA71DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A31BBB4F217B7C8D00EA71DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RW646P4KDZ;
+				INFOPLIST_FILE = HackChat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ios.HackChat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A31BBB50217B7C8D00EA71DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RW646P4KDZ;
+				INFOPLIST_FILE = HackChat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ios.HackChat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A31BBB52217B7C8D00EA71DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RW646P4KDZ;
+				INFOPLIST_FILE = HackChatTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ios.HackChatTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HackChat.app/HackChat";
+			};
+			name = Debug;
+		};
+		A31BBB53217B7C8D00EA71DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RW646P4KDZ;
+				INFOPLIST_FILE = HackChatTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ios.HackChatTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HackChat.app/HackChat";
+			};
+			name = Release;
+		};
+		A31BBB55217B7C8D00EA71DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RW646P4KDZ;
+				INFOPLIST_FILE = HackChatUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ios.HackChatUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HackChat;
+			};
+			name = Debug;
+		};
+		A31BBB56217B7C8D00EA71DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RW646P4KDZ;
+				INFOPLIST_FILE = HackChatUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ios.HackChatUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HackChat;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A31BBB1E217B7C8B00EA71DD /* Build configuration list for PBXProject "HackChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A31BBB4C217B7C8D00EA71DD /* Debug */,
+				A31BBB4D217B7C8D00EA71DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A31BBB4E217B7C8D00EA71DD /* Build configuration list for PBXNativeTarget "HackChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A31BBB4F217B7C8D00EA71DD /* Debug */,
+				A31BBB50217B7C8D00EA71DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A31BBB51217B7C8D00EA71DD /* Build configuration list for PBXNativeTarget "HackChatTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A31BBB52217B7C8D00EA71DD /* Debug */,
+				A31BBB53217B7C8D00EA71DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A31BBB54217B7C8D00EA71DD /* Build configuration list for PBXNativeTarget "HackChatUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A31BBB55217B7C8D00EA71DD /* Debug */,
+				A31BBB56217B7C8D00EA71DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A31BBB2D217B7C8B00EA71DD /* HackChat.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A31BBB2E217B7C8B00EA71DD /* HackChat.xcdatamodel */,
+			);
+			currentVersion = A31BBB2E217B7C8B00EA71DD /* HackChat.xcdatamodel */;
+			path = HackChat.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A31BBB1B217B7C8B00EA71DD /* Project object */;
+}
