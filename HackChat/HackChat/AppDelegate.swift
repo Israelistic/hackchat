@@ -8,12 +8,13 @@
 
 import UIKit
 import CoreData
+import MaterialComponents.MaterialDialogs
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
-
+    static var usernameList:[String:String] = [:]
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
@@ -87,6 +88,17 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
                 fatalError("Unresolved error \(nserror), \(nserror.userInfo)")
             }
         }
+    }
+    
+    class func alert(text: String, title:String, vc:UIViewController, finish: (()->())?){
+        let alertController = MDCAlertController(title: title, message: text)
+        let action = MDCAlertAction(title:"OK") { (action) in
+            if let finish = finish{
+                finish()
+            }
+        }
+        alertController.addAction(action)
+        vc.present(alertController, animated:true)
     }
 
 }

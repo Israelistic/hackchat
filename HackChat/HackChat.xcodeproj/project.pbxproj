@@ -9,6 +9,10 @@
 /* Begin PBXBuildFile section */
 		3937659620CD215F79CDF79D /* Pods_HackChat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 314871CDF75E000BBDF5C4A0 /* Pods_HackChat.framework */; };
 		7D02FDAF217B8D4300EBEF0B /* SigninViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D02FDAE217B8D4300EBEF0B /* SigninViewController.swift */; };
+		7D3FD9FD217BA42000CA37A4 /* ChatListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D3FD9FC217BA42000CA37A4 /* ChatListViewController.swift */; };
+		7D3FD9FF217BAD2C00CA37A4 /* ChatPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D3FD9FE217BAD2C00CA37A4 /* ChatPageViewController.swift */; };
+		7D3FDA01217BAEBF00CA37A4 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D3FDA00217BAEBF00CA37A4 /* Message.swift */; };
+		7D3FDA03217BB21C00CA37A4 /* NewChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D3FDA02217BB21C00CA37A4 /* NewChatViewController.swift */; };
 		7D73D541217B86100040FC8B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7D73D540217B86100040FC8B /* GoogleService-Info.plist */; };
 		A31BBB27217B7C8B00EA71DD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A31BBB26217B7C8B00EA71DD /* AppDelegate.swift */; };
 		A31BBB29217B7C8B00EA71DD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A31BBB28217B7C8B00EA71DD /* ViewController.swift */; };
@@ -44,6 +48,10 @@
 		50153310501DEED9F2BF7BF2 /* Pods_HackChatTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HackChatTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C72B25A621416DB5FAD42D6 /* Pods-HackChatUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HackChatUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HackChatUITests/Pods-HackChatUITests.release.xcconfig"; sourceTree = "<group>"; };
 		7D02FDAE217B8D4300EBEF0B /* SigninViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SigninViewController.swift; sourceTree = "<group>"; };
+		7D3FD9FC217BA42000CA37A4 /* ChatListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatListViewController.swift; sourceTree = "<group>"; };
+		7D3FD9FE217BAD2C00CA37A4 /* ChatPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatPageViewController.swift; sourceTree = "<group>"; };
+		7D3FDA00217BAEBF00CA37A4 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		7D3FDA02217BB21C00CA37A4 /* NewChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewChatViewController.swift; sourceTree = "<group>"; };
 		7D73D540217B86100040FC8B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		8277A92C6B67E32DC6F87A85 /* Pods-HackChat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HackChat.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HackChat/Pods-HackChat.debug.xcconfig"; sourceTree = "<group>"; };
 		88600431CDF498877C3357F8 /* Pods-HackChatUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HackChatUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HackChatUITests/Pods-HackChatUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -129,6 +137,10 @@
 				A31BBB32217B7C8C00EA71DD /* LaunchScreen.storyboard */,
 				A31BBB35217B7C8C00EA71DD /* Info.plist */,
 				A31BBB2D217B7C8B00EA71DD /* HackChat.xcdatamodeld */,
+				7D3FD9FC217BA42000CA37A4 /* ChatListViewController.swift */,
+				7D3FD9FE217BAD2C00CA37A4 /* ChatPageViewController.swift */,
+				7D3FDA00217BAEBF00CA37A4 /* Message.swift */,
+				7D3FDA02217BB21C00CA37A4 /* NewChatViewController.swift */,
 			);
 			path = HackChat;
 			sourceTree = "<group>";
@@ -341,6 +353,9 @@
 				"${BUILT_PRODUCTS_DIR}/BoringSSL/openssl.framework",
 				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
 				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/MDFInternationalization/MDFInternationalization.framework",
+				"${BUILT_PRODUCTS_DIR}/MDFTextAccessibility/MDFTextAccessibility.framework",
+				"${BUILT_PRODUCTS_DIR}/MaterialComponents/MaterialComponents.framework",
 				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
 				"${BUILT_PRODUCTS_DIR}/SCLAlertView/SCLAlertView.framework",
 				"${BUILT_PRODUCTS_DIR}/gRPC/GRPCClient.framework",
@@ -358,6 +373,9 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/openssl.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MDFInternationalization.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MDFTextAccessibility.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MaterialComponents.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SCLAlertView.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GRPCClient.framework",
@@ -447,9 +465,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				7D02FDAF217B8D4300EBEF0B /* SigninViewController.swift in Sources */,
+				7D3FD9FF217BAD2C00CA37A4 /* ChatPageViewController.swift in Sources */,
 				A31BBB2F217B7C8B00EA71DD /* HackChat.xcdatamodeld in Sources */,
 				A31BBB29217B7C8B00EA71DD /* ViewController.swift in Sources */,
 				A31BBB27217B7C8B00EA71DD /* AppDelegate.swift in Sources */,
+				7D3FD9FD217BA42000CA37A4 /* ChatListViewController.swift in Sources */,
+				7D3FDA01217BAEBF00CA37A4 /* Message.swift in Sources */,
+				7D3FDA03217BB21C00CA37A4 /* NewChatViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

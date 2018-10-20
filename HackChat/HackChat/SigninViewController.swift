@@ -7,7 +7,9 @@
 //
 
 import UIKit
+
 import Firebase
+import FirebaseAuth
 
 class SigninViewController: UIViewController, UITextFieldDelegate {
     @IBOutlet weak var nameField: UITextField!
@@ -20,9 +22,40 @@ class SigninViewController: UIViewController, UITextFieldDelegate {
     
     @IBAction func submitOnPress(_ sender: Any) {
         if nameField.text != nil && emailField.text != nil && password1Field.text != nil && password2Field.text != nil && (password2Field.text == password1Field.text) {
-            Firestore.firestore().collection("User").addDocument(data: ["Username" : nameField.text, "Email": emailField.text])
+            
+            //create user ref in database
+            
+            Firestore.firestore().collection("User").whereField("email", isEqualTo: emailField.text).getDocuments { (snap, err) in
+                if let err = err {
+                    AppDelegate.alert(text: "\(err.localizedDescription)", title: "Cannot reach the ddatabase", vc: self, finish: {})
+                } else {
+                    if snap?.documents.count == 0 {
+                        
+                        Firestore.firestore().collection("User").addDocument(data: ["Username" : self.nameField.text, "Email": self.emailField.text]) { (err) in
+                            if let err = err {
+                                AppDelegate.alert(text: "\(err.localizedDescription)", title: "Error when creating user ref", vc: self, finish: {})
+                            } else {
+                                
+                                //create user in auth
+                                Auth.auth().createUser(withEmail: self.emailField.text!, password: self.password1Field.text!, completion: { (result, err) in
+                                    if let err = err {
+                                        AppDelegate.alert(text: "\(err.localizedDescription)", title: "Error when creating user", vc: self, finish: {})
+                                    } else {
+                                        self.performSegue(withIdentifier: "login", sender: nil)
+                                    }
+                                })
+                            }
+                            
+                        }
+                        
+                    } else {
+                        AppDelegate.alert(text: "Error", title: "The email is already exist", vc: self, finish: {})
+                    }
+                }
+            }
+            
         } else {
-            print("not valid")
+            AppDelegate.alert(text: "not valid", title: "chack emaill password", vc: self, finish: {})
         }
     }
     

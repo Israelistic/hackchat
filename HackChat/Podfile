@@ -11,6 +11,8 @@ target 'HackChat' do
     pod 'FirebaseUI/Auth'
     
     pod 'SCLAlertView', '~> 0.8'
+    
+    pod 'MaterialComponents/Dialogs'
 
 
   target 'HackChatTests' do

@@ -8,6 +8,7 @@
 
 import UIKit
 import Firebase
+import FirebaseAuth
 
 class ViewController: UIViewController {
     
@@ -35,7 +36,14 @@ class ViewController: UIViewController {
     
     @IBAction func buttonOnPress(_ sender: Any) {
         
-        
+        Auth.auth().signIn(withEmail: text1.text!, password: text2.text!) { (result, err) in
+            
+            if let err = err {
+                AppDelegate.alert(text: "\(err.localizedDescription)", title: "Canot login", vc: self, finish: nil)
+            } else {
+                self.performSegue(withIdentifier: "login", sender: nil)
+            }
+        }
         
     }
 
